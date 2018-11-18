@@ -1,0 +1,68 @@
+.main-heading {
+    text-align: center;
+}
+.file-input-title {
+    text-align: center;
+}
+.file-input-wrapper {
+    padding: 20px 0;
+    text-align: center;
+}
+#result-area {
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+.crypto-card {
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 16px;
+    width: 250px;
+    display: inline-block;
+    box-sizing: content-box;
+    margin: 25px;
+    height: 250px;
+    background-color: rgb(245, 214, 221);
+}
+
+.crypto-card:hover, .crypto-card:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+.crypto-card:hover .currency {
+    text-shadow: 2px 1px #8b8b8b;
+}
+
+.date {
+    padding: 15px 0;
+    font-size: 16px;
+}
+.currency {
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buy {
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.sell {
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.profit {
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.sr-only {
+    display: none;
+}
